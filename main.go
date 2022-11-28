@@ -18,6 +18,21 @@ func main() {
 
 	controllers.StartMainServer()
 
+	// // user情報取得
+	// user, _ := models.GetUserByEmail("test@example.com")
+	// fmt.Println(user)
+
+	// // session情報取得
+	// session, err := user.CreateSession()
+	// if err != nil {
+	// 	log.Println(err)
+	// }
+	// fmt.Println(session)
+
+	// // session情報チェック
+	// valid, _ := session.CheckSession()
+	// fmt.Println(valid)
+
 	// user
 	// C
 	// u := &models.User{}
